@@ -15,3 +15,6 @@ INSERT INTO user_role (user_id, role_id) VALUES (3, 2);
 INSERT INTO user_role (user_id, role_id) VALUES (3, 3);
 
 INSERT INTO courses (name, img_Uri, img_Gray_Uri) VALUES ('Bootcamp Java', 'https://ebaconline.com.br/images/tild6435-6639-4933-a334-656136656461___1_3_1.png', 'https://www.oracle.com/oce/press/assets/CONT2F6AE229113D42EC9C59FAED5BAA0380/native/og-social-java-logo.gif');
+
+INSERT INTO offers (edition, start_Moment, end_Moment, course_id) VALUES ('1.0', TIMESTAMP WITH TIME ZONE '2023-10-01T06:00:00.12345Z', TIMESTAMP WITH TIME ZONE '2023-11-15T15:00:00.12345Z', 1);
+INSERT INTO offers (edition, start_Moment, end_Moment, course_id) VALUES ('2.0', TIMESTAMP WITH TIME ZONE '2024-10-01T06:00:00.12345Z', TIMESTAMP WITH TIME ZONE '2024-11-15T15:00:00.12345Z', 1);
